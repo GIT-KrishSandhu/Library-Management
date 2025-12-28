@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Library Dashboard</h1>
+
+<!-- Add Book -->
+<section>
+    <h2>Add Book</h2>
+    <input id="id" placeholder="ID">
+    <input id="name" placeholder="Title">
+    <input id="author" placeholder="Author">
+    <button onclick="addBook()">Add</button>
+</section>
+
+<!-- Books Table -->
+<section>
+    <h2>All Books</h2>
+    <table id="bookTable">
+        <thead>
+        <tr><th>ID</th><th>Name</th><th>Author</th><th>Actions</th></tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
